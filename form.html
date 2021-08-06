@@ -1,0 +1,176 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap" rel="stylesheet">
+    
+        <title>Booking</title>
+    </head>
+<body class="container-book">
+    <header class="header-book">
+        <div class="header-book__menu">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="img/olive3.png" alt="" class="logo__img">
+                    <h1 class="logo__name">Olive Tavern</h1>
+                    <h3 class="logo__restaurant">Ristorante Italiano</h3>
+                </div>
+            </div>
+
+            <ul class="header__menu--nav">
+                <li class="header-meniu__menu--item "><a class="menu-link" href="index.html">Home</a></li>
+                <li class="header-meniu__menu--item "><a class="menu-link" href="menu.html">Menu</a></li>
+                <li class="header-meniu__menu--item "><a class="menu-link" href="drinks.html">Drinks</a></li>
+                <li class="header-meniu__menu--item "><a class="menu-link" id="sunday-menu" href="sunday.html">Sunday Menu</a></li>
+                <li class="header-meniu__menu--item "><a class="menu-link" href="gallery.html">Gallery</a></li>
+                <li class="header-meniu__menu--item "><a class="menu-link" href="testimonials.html">Testimonials</a></li>
+                <li class="header-meniu__menu--item on__page "><a class="menu-link" href="form.html">Book Online</a></li>
+            </ul>
+
+            <div class="header__menu--nav-btn">
+                <div class="btn-nav">
+                    <div class="btn-nav__line">
+                        <div href="" class="btn-nav__line--item btn-nav__bar"></div>
+                    </div>
+                    <div class="btn-nav__box">
+                        <div class="btn-nav__box--menu">
+                            <a href="index.html" class="btn-nav__box--link">Home</a>
+                            <a href="menu.html " class="btn-nav__box--link">Menu</a>
+                            <a href="drinks.html" class="btn-nav__box--link">Drinks</a>
+                            <a href="sunday.html" class="btn-nav__box--link btn-nav__box--link-sunday">Sunday Menu</a>
+                            <a href="gallery.html" class="btn-nav__box--link">Gallery</a>
+                            <a href="testimonials.html" class="btn-nav__box--link">Testimonials</a>
+                            <a href="form.html" class="btn-nav__box--link">Book Online</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__menu--contact">
+                <span class="header__menu--contact-main">
+                    Book a table
+                </span>
+                <span class="header__menu--contact-secondary">
+                    +0208 335 6784
+                </span>
+            </div>
+        </div>
+
+        <div class="header-meniu__msg">
+            <h1 class="header-meniu__msg--text">
+                Book a table online
+            </h1>
+        </div>
+    </header>
+
+
+    <section class="form">
+        
+        <h2 class="form__text">Book a table online. </h2>
+    
+        <form class="book" action="" method="GET" >
+            <label class="book__name book__label" for="name">Name</label>
+            <input class="book__name--input" type="name" type="text" placeholder="Name" ><br>
+            <label class="book__people book__label" for="people">Number of people</label>
+            <select class="book__input" name="people" id="people" required="required">
+                <option value="monday">2</option>
+                <option value="tuesday">3</option>
+                <option value="wednesday">4</option>
+                <option value="thursday">5</option>
+                <option value="friday">6</option>
+                <option value="saturday">7</option>
+                <option value="sunday">8</option>
+                <option value="sunday">More than 8 people</option>
+      
+            </select><br>
+            <label class="book__day book__label" for="day">Choose a day</label>
+            <select class="book__input" name="day" id="date">
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+                <option value="sunday">Sunday</option>
+            </select><br>
+            <label class="book__day book__label" for="day">Choose time</label>
+            <select class="book__input" name="day" id="date">
+                <option value="monday">09:00</option>
+                <option value="tuesday">10:00</option>
+                <option value="wednesday">11:00</option>
+                <option value="thursday">12:00</option>
+                <option value="thursday">13:00</option>
+                <option value="thursday">14:00</option>
+                <option value="thursday">15:00</option>
+                <option value="thursday">16:00</option>
+                <option value="thursday">17:00</option>
+                <option value="thursday">18:00</option>
+                <option value="thursday">19:00</option>
+                <option value="thursday">20:00</option>
+                <option value="thursday">21:00</option>
+            </select><br>
+
+            <label class="book__textarea book__label" for="textarea">Any requirements</label>
+            <textarea class="book__input" name="textarea" id="textarea" cols="25" rows="5"></textarea><br>
+            <a class="submit" href="form.html" onclick="myFunction()">Book</a>
+        </form>
+       <script>
+           function myFunction(){
+            alert("Thank you for booking with us. See you soon.");
+
+           }
+           
+       </script>
+
+    </section>
+   
+    <footer class="footer-book" id="footer">
+        <div class="footer-book__contact">
+            <div class="logo footer__logo">
+                <img src="img/olive3.png" alt="" class="logo__img">
+                <h1 class="logo__name">Olive Tavern</h1>
+                <h3 class="logo__restaurant">Ristorante Italiano</h3>
+            </div>
+
+            <div class="contact">
+                <div class="contact__item">
+
+                    <span class="contact__main">
+                        Book a table
+                    </span>
+                    <div class="contact__secondary">
+                        +0208 335 6784
+                    </div>
+
+                </div>
+                <div class="contact__item">
+
+                    <span class="contact__main">
+                        Email
+                    </span>
+                    <div class="contact__secondary">
+                        olive.tavern@gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="scroll-button">Top</a>
+        <div class="footer__map" id="div-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.895564330055!2d-0.39851208407263977!3d51.36821657961251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876753f906da5a7%3A0x7d52f9aecae943b8!2sEsher%20Rd%2C%20Hersham%2C%20Walton-on-Thames%20KT12%204JZ!5e0!3m2!1sen!2suk!4v1625069534827!5m2!1sen!2suk" width="320" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+    </footer>
+</body>
+</html>
